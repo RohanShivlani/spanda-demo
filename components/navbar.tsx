@@ -1,18 +1,13 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export function Navbar() {
   return (
     <nav className="flex w-full items-center justify-between border-b border-black/[.08] bg-white px-6 py-4 dark:border-white/[.145] dark:bg-black">
-      <Link href="/" className="flex items-center">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Spanda logo"
-          width={100}
-          height={20}
-          priority
-        />
+      <Link
+        href="/"
+        className="text-xl font-semibold tracking-tight text-black dark:text-zinc-50"
+      >
+        Spanda Connect
       </Link>
       <Link
         href="/login"
