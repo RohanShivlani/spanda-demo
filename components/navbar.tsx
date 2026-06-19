@@ -2,16 +2,16 @@ import Link from "next/link";
 
 export function Navbar() {
   return (
-    <nav className="flex w-full items-center justify-between border-b border-black/[.08] bg-white px-6 py-4 dark:border-white/[.145] dark:bg-black">
+    <nav className="relative z-10 flex w-full items-center justify-between border-b border-amber-400/20 bg-black/60 px-6 py-4 backdrop-blur-sm">
       <Link
         href="/"
-        className="text-xl font-semibold tracking-tight text-black dark:text-zinc-50"
+        className="text-xl font-semibold tracking-tight text-amber-400"
       >
         Spanda Connect
       </Link>
       <Link
         href="/login"
-        className="flex h-10 items-center justify-center rounded-full bg-foreground px-5 text-sm font-medium text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc]"
+        className="flex h-10 items-center justify-center rounded-full bg-amber-400 px-5 text-sm font-medium text-black transition-colors hover:bg-amber-300"
       >
         Login
       </Link>
