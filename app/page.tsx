@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Footer } from "@/components/footer";
 import { Navbar } from "@/components/navbar";
 
 export default function Home() {
@@ -54,6 +55,7 @@ export default function Home() {
           </a>
         </div>
       </main>
+      <Footer />
     </div>
   );
 }
