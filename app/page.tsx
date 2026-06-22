@@ -1,8 +1,3 @@
-import { Footer } from "@/components/footer";
-import { Navbar } from "@/components/navbar";
-import { NetworkBackground } from "@/components/network-background";
-import Link from "next/link";
-
 export default function Home() {
   return (
     <div className="relative flex min-h-full flex-1 flex-col bg-black font-sans">
@@ -10,6 +5,9 @@ export default function Home() {
       <Navbar>
         <p className="text-lg text-zinc-50">Welcome to Spanda Connect</p>
       </Navbar>
+      <div className="bg-pink-500 h-16 relative mt-4 text-white">
+        <h2 className="absolute top-0 left-1/2 transform -translate-x-1/2 font-bold">Now accepting applications</h2>
+      </div>
       <main className="relative z-10 mx-auto flex flex-1 w-full max-w-3xl flex-col items-center justify-between gap-12 px-16 py-32 sm:items-start">
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
           <h1 className="max-w-lg text-3xl font-semibold leading-10 tracking-tight text-zinc-50">
