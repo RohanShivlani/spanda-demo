@@ -7,7 +7,9 @@ export default function Home() {
   return (
     <div className="relative flex min-h-full flex-1 flex-col bg-black font-sans">
       <NetworkBackground />
-      <Navbar />
+      <Navbar>
+        <p className="text-lg text-zinc-50">Welcome to Spanda Connect</p>
+      </Navbar>
       <main className="relative z-10 mx-auto flex flex-1 w-full max-w-3xl flex-col items-center justify-between gap-12 px-16 py-32 sm:items-start">
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
           <h1 className="max-w-lg text-3xl font-semibold leading-10 tracking-tight text-zinc-50">
