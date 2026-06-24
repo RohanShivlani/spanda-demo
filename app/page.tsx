@@ -23,7 +23,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
           <Link
-            className="flex h-12 w-full items-center justify-center rounded-full bg-green-400 px-5 text-black transition-colors hover:bg-green-300 md:w-[158px]"
+            className="flex h-12 w-full items-center justify-center rounded-full bg-purple-400 px-5 text-black transition-colors hover:bg-purple-300 md:w-[158px]"
             href="/login"
           >
             Get Started
